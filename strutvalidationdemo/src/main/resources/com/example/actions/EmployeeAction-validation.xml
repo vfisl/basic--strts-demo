@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+<field name="employee.age">
+<field-validator type="int">
+<param name="min">20</param>
+<message>Enter appropriate age</message>
+</field-validator>
+</field>
+</validators>
